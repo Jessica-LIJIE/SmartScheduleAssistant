@@ -1,0 +1,14 @@
+com\smartscheduleassistant\config\SecurityConfig.class
+com\smartscheduleassistant\service\TaskService.class
+com\smartscheduleassistant\controller\ChatController.class
+com\smartscheduleassistant\service\UserService.class
+com\smartscheduleassistant\util\JwtUtil.class
+com\smartscheduleassistant\entity\Task.class
+com\smartscheduleassistant\service\LlmService.class
+com\smartscheduleassistant\repository\TaskRepository.class
+com\smartscheduleassistant\repository\UserRepository.class
+com\smartscheduleassistant\entity\User.class
+com\smartscheduleassistant\config\JwtFilter.class
+com\smartscheduleassistant\Application.class
+com\smartscheduleassistant\controller\TaskController.class
+com\smartscheduleassistant\controller\AuthController.class

@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/smartschedule?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: false
+
+jwt:
+  secret: verysecretkey_for_dev_change_me
+  expiration-ms: 86400000 # 1 day
+
+server:
+  port: 8080
